@@ -1,7 +1,0 @@
-.ini
-
-url = 'https://www.mountainproject.com/data/get-routes?routeIds=106286621&key='
-resp = req.get(url)
-status_code = resp.status_code
-print(status_code)xx
-200368472-ed680d2e3b4f3efd04ececb8fd95705a
