@@ -33,12 +33,16 @@ img = folium.raster_layers.ImageOverlay(
 
 # Global Tooltip
 tooltip = 'Click For Route Info'
-
+overlay = os.path.join('data', 'miller_fork.json')
 
 # Create markers
 for i in range(0,len(data)):
     folium.Marker([data.iloc[i]['lat'], data.iloc[i]['lon']], popup=folium.Popup(data.iloc[i]['name_of_route'] + '\n' + data.iloc[i]['grade'], max_width=150), icon=CustomIcon('mountain.png', icon_size=(30,30))).add_to(m)
 
+folium.Marker(
+    location=[37.7831, -83.6828],
+    icon=CustomIcon(icon_image='https://www.miguelspizza.com/wp-content/uploads/pp/images/facebook_static_front_page_1386295310.png', icon_size=(50, 60))
+).add_to(m)
 # Circle Marker
 folium.CircleMarker(
     location=[37.7195, -83.6615],
@@ -49,6 +53,7 @@ folium.CircleMarker(
     fill_color='#428bca'
 ).add_to(m)
 
-# folium.GeoJson(overlay, name='Land of Arches').add_to(m)
+
+folium.GeoJson(overlay, name='Miller Fork').add_to(m)
 # Generate map
 m.save('map.html')
