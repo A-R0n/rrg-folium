@@ -4,4 +4,4 @@
 
 ## Interesting Notes
 
--- The GPS coordinates provided by Mountain Project's API are neither precise or accurate
+-- The GPS coordinates provided by Mountain Project's API are neither precise nor accurate
