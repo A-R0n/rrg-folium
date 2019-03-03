@@ -1,6 +1,6 @@
 ## Summary
 
--- Using the folium module with python to pin some of my favorite routes at the Red River Gorge onto a map.
+-- Using folium to pin the best rock climbing routes at the Red River Gorge and storing the data with pandas.
 
 ## Interesting Notes
 
