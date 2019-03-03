@@ -17,7 +17,7 @@
     
     <meta name="viewport" content="width=device-width,
         initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <style>#map_86f2ee71bf394e028094912e1ff476fd {
+    <style>#map_2e0a2c48cc914fcfa0bdfd7042be68f8 {
         position: relative;
         width: 100.0%;
         height: 100.0%;
@@ -28,7 +28,7 @@
 </head>
 <body>    
     
-    <div class="folium-map" id="map_86f2ee71bf394e028094912e1ff476fd" ></div>
+    <div class="folium-map" id="map_2e0a2c48cc914fcfa0bdfd7042be68f8" ></div>
 </body>
 <script>    
     
@@ -36,10 +36,10 @@
         var bounds = null;
     
 
-    var map_86f2ee71bf394e028094912e1ff476fd = L.map(
-        'map_86f2ee71bf394e028094912e1ff476fd', {
-        center: [37.8139, -83.6279],
-        zoom: 12,
+    var map_2e0a2c48cc914fcfa0bdfd7042be68f8 = L.map(
+        'map_2e0a2c48cc914fcfa0bdfd7042be68f8', {
+        center: [37.75, -83.7],
+        zoom: 11,
         maxBounds: bounds,
         layers: [],
         worldCopyJump: false,
@@ -49,7 +49,7 @@
 
 
     
-    var tile_layer_aef5a99fae8647a983e15ad8a8d2c86d = L.tileLayer(
+    var tile_layer_9739b408477b4c80ba9ff5718d818f98 = L.tileLayer(
         'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         {
         "attribution": null,
@@ -61,32 +61,699 @@
         "opacity": 1,
         "subdomains": "abc",
         "tms": false
-}).addTo(map_86f2ee71bf394e028094912e1ff476fd);
+}).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
     
-        var marker_40d813fb3ba04df5b13dc899596d01f5 = L.marker(
-            [37.6524, -83.7246],
+        var marker_2d1dd3bb5d67427a90adaf91c6945408 = L.marker(
+            [37.6527, -83.72515],
             {
                 icon: new L.Icon.Default(),
                 }
-            ).addTo(map_86f2ee71bf394e028094912e1ff476fd);
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
         
     
-            var popup_856d56849a5b42e8af712d0cad07d8c7 = L.popup({maxWidth: '100%'
+
+                var icon_491e86f3221d45399ba15bd7bd291c48 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2d1dd3bb5d67427a90adaf91c6945408.setIcon(icon_491e86f3221d45399ba15bd7bd291c48);
+            
+    
+            var popup_32798890ab4844dda36aa51d2ddb9065 = L.popup({maxWidth: '150'
             
             });
 
             
-                var html_ddedb9a1d8d74c69b45e57840fc24780 = $(`<div id="html_ddedb9a1d8d74c69b45e57840fc24780" style="width: 100.0%; height: 100.0%;"><strong>Breakfast Burrito</strong></div>`)[0];
-                popup_856d56849a5b42e8af712d0cad07d8c7.setContent(html_ddedb9a1d8d74c69b45e57840fc24780);
+                var html_3535ad48569a4f34ab0e6b5c9a57f17b = $(`<div id="html_3535ad48569a4f34ab0e6b5c9a57f17b" style="width: 100.0%; height: 100.0%;">Check Your Grip 5.12a</div>`)[0];
+                popup_32798890ab4844dda36aa51d2ddb9065.setContent(html_3535ad48569a4f34ab0e6b5c9a57f17b);
             
 
-            marker_40d813fb3ba04df5b13dc899596d01f5.bindPopup(popup_856d56849a5b42e8af712d0cad07d8c7)
+            marker_2d1dd3bb5d67427a90adaf91c6945408.bindPopup(popup_32798890ab4844dda36aa51d2ddb9065)
             ;
 
             
         
     
-        marker_40d813fb3ba04df5b13dc899596d01f5.bindTooltip(
+        marker_2d1dd3bb5d67427a90adaf91c6945408.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9ce22a835bb8479a974bb2f8430ea75a = L.marker(
+            [37.65177, -83.7098],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_69c8c9c82acb4a538f4922730c104433 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ce22a835bb8479a974bb2f8430ea75a.setIcon(icon_69c8c9c82acb4a538f4922730c104433);
+            
+    
+            var popup_677c430e3c4f4f72917679aecf098a6b = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_9988e407c6394dce91a965b484ead8cc = $(`<div id="html_9988e407c6394dce91a965b484ead8cc" style="width: 100.0%; height: 100.0%;">Amarillo Sunset 5.11b</div>`)[0];
+                popup_677c430e3c4f4f72917679aecf098a6b.setContent(html_9988e407c6394dce91a965b484ead8cc);
+            
+
+            marker_9ce22a835bb8479a974bb2f8430ea75a.bindPopup(popup_677c430e3c4f4f72917679aecf098a6b)
+            ;
+
+            
+        
+    
+        marker_9ce22a835bb8479a974bb2f8430ea75a.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5c4f7209ed8f45aebdd406f0bb038344 = L.marker(
+            [37.7337, -83.6388],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_aeb9b260526c43a5ada2e661067b383d = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5c4f7209ed8f45aebdd406f0bb038344.setIcon(icon_aeb9b260526c43a5ada2e661067b383d);
+            
+    
+            var popup_430b62e9a0fb44399f967095d9235784 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_9968a08aa1d54ed3ba2045113674fe21 = $(`<div id="html_9968a08aa1d54ed3ba2045113674fe21" style="width: 100.0%; height: 100.0%;">Banshee 5.11c</div>`)[0];
+                popup_430b62e9a0fb44399f967095d9235784.setContent(html_9968a08aa1d54ed3ba2045113674fe21);
+            
+
+            marker_5c4f7209ed8f45aebdd406f0bb038344.bindPopup(popup_430b62e9a0fb44399f967095d9235784)
+            ;
+
+            
+        
+    
+        marker_5c4f7209ed8f45aebdd406f0bb038344.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b65415d1dbee428b83340f99194375ec = L.marker(
+            [37.8145, -83.6639],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_69b4263c0a8c459d8d0202e35e8317f9 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b65415d1dbee428b83340f99194375ec.setIcon(icon_69b4263c0a8c459d8d0202e35e8317f9);
+            
+    
+            var popup_bea97e889b7f4fd385bd321044034540 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_5fdb2a004e414c00839d50f30cf6df68 = $(`<div id="html_5fdb2a004e414c00839d50f30cf6df68" style="width: 100.0%; height: 100.0%;">Mercy the Huff 5.12b</div>`)[0];
+                popup_bea97e889b7f4fd385bd321044034540.setContent(html_5fdb2a004e414c00839d50f30cf6df68);
+            
+
+            marker_b65415d1dbee428b83340f99194375ec.bindPopup(popup_bea97e889b7f4fd385bd321044034540)
+            ;
+
+            
+        
+    
+        marker_b65415d1dbee428b83340f99194375ec.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_64f16b5e6cea4c17991e660dec7826a6 = L.marker(
+            [37.7309, -83.65582],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_bbc1b1146bf245d4891947a6652e926b = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_64f16b5e6cea4c17991e660dec7826a6.setIcon(icon_bbc1b1146bf245d4891947a6652e926b);
+            
+    
+            var popup_e63fa192461d482ca3470478e2c4fa6d = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_58df8d3d0e9840669c11763df14f3adf = $(`<div id="html_58df8d3d0e9840669c11763df14f3adf" style="width: 100.0%; height: 100.0%;">The Return of Chris Snyder 5.11d</div>`)[0];
+                popup_e63fa192461d482ca3470478e2c4fa6d.setContent(html_58df8d3d0e9840669c11763df14f3adf);
+            
+
+            marker_64f16b5e6cea4c17991e660dec7826a6.bindPopup(popup_e63fa192461d482ca3470478e2c4fa6d)
+            ;
+
+            
+        
+    
+        marker_64f16b5e6cea4c17991e660dec7826a6.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_09345bc292db4d889507543eb8dd2240 = L.marker(
+            [37.7315, -83.6565],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_ebdfef5cf4894ed5837e351bb90c7331 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09345bc292db4d889507543eb8dd2240.setIcon(icon_ebdfef5cf4894ed5837e351bb90c7331);
+            
+    
+            var popup_342b83b6d6d64bf8b3182a003b517e07 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_10100afe2ac0435e8402561ae282a4e8 = $(`<div id="html_10100afe2ac0435e8402561ae282a4e8" style="width: 100.0%; height: 100.0%;">Ro Shampo 5.12a</div>`)[0];
+                popup_342b83b6d6d64bf8b3182a003b517e07.setContent(html_10100afe2ac0435e8402561ae282a4e8);
+            
+
+            marker_09345bc292db4d889507543eb8dd2240.bindPopup(popup_342b83b6d6d64bf8b3182a003b517e07)
+            ;
+
+            
+        
+    
+        marker_09345bc292db4d889507543eb8dd2240.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1f4c3a70769a405abdc4bf07b36c31c1 = L.marker(
+            [37.7519, -83.6615],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_65fa9136b1114512b2eaafd35d233c55 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1f4c3a70769a405abdc4bf07b36c31c1.setIcon(icon_65fa9136b1114512b2eaafd35d233c55);
+            
+    
+            var popup_4596608d2e3945fabb1f85623a920400 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_5f0a9dee3d164888ab515f6bd5b14cd8 = $(`<div id="html_5f0a9dee3d164888ab515f6bd5b14cd8" style="width: 100.0%; height: 100.0%;">Yellow Brick Road 5.11b</div>`)[0];
+                popup_4596608d2e3945fabb1f85623a920400.setContent(html_5f0a9dee3d164888ab515f6bd5b14cd8);
+            
+
+            marker_1f4c3a70769a405abdc4bf07b36c31c1.bindPopup(popup_4596608d2e3945fabb1f85623a920400)
+            ;
+
+            
+        
+    
+        marker_1f4c3a70769a405abdc4bf07b36c31c1.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f9c818967dd24dde94d91cfd164b29d3 = L.marker(
+            [37.75194, -83.6637],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_abbdacfa91944cd08daafc27f5db57dc = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9c818967dd24dde94d91cfd164b29d3.setIcon(icon_abbdacfa91944cd08daafc27f5db57dc);
+            
+    
+            var popup_3b2ff673ceed40ffbe208e609f2859e7 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_da51814bf4a544debca344f4be932165 = $(`<div id="html_da51814bf4a544debca344f4be932165" style="width: 100.0%; height: 100.0%;">No Place Like Home 5.11b</div>`)[0];
+                popup_3b2ff673ceed40ffbe208e609f2859e7.setContent(html_da51814bf4a544debca344f4be932165);
+            
+
+            marker_f9c818967dd24dde94d91cfd164b29d3.bindPopup(popup_3b2ff673ceed40ffbe208e609f2859e7)
+            ;
+
+            
+        
+    
+        marker_f9c818967dd24dde94d91cfd164b29d3.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_eba01b4b33c5454d8fd5c9ca3ec87914 = L.marker(
+            [37.6466, -83.7229],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_b15f448ecc74448c8f32912cd5fdf147 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eba01b4b33c5454d8fd5c9ca3ec87914.setIcon(icon_b15f448ecc74448c8f32912cd5fdf147);
+            
+    
+            var popup_aa9cf0180981469db857af132d596e51 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_dc2cd1c474144653ad68657514ffc62d = $(`<div id="html_dc2cd1c474144653ad68657514ffc62d" style="width: 100.0%; height: 100.0%;">Don't Call It a Comeback 5.11d</div>`)[0];
+                popup_aa9cf0180981469db857af132d596e51.setContent(html_dc2cd1c474144653ad68657514ffc62d);
+            
+
+            marker_eba01b4b33c5454d8fd5c9ca3ec87914.bindPopup(popup_aa9cf0180981469db857af132d596e51)
+            ;
+
+            
+        
+    
+        marker_eba01b4b33c5454d8fd5c9ca3ec87914.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e1462cdb861a4747927bcdb3956114b8 = L.marker(
+            [37.6787, -83.7356],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_30a3e71752ae4a768865d40e538ff8d3 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e1462cdb861a4747927bcdb3956114b8.setIcon(icon_30a3e71752ae4a768865d40e538ff8d3);
+            
+    
+            var popup_adc08f670b6b49d7a3032024e9285f08 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_67195726b1804c03994ce731b011080f = $(`<div id="html_67195726b1804c03994ce731b011080f" style="width: 100.0%; height: 100.0%;">Crown of Thorns 5.11c</div>`)[0];
+                popup_adc08f670b6b49d7a3032024e9285f08.setContent(html_67195726b1804c03994ce731b011080f);
+            
+
+            marker_e1462cdb861a4747927bcdb3956114b8.bindPopup(popup_adc08f670b6b49d7a3032024e9285f08)
+            ;
+
+            
+        
+    
+        marker_e1462cdb861a4747927bcdb3956114b8.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_35ad9b2c2d214a81b81d581e42cce5e8 = L.marker(
+            [37.6789, -83.7358],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_a75051fbf94e4a60b666f94d6f41996b = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_35ad9b2c2d214a81b81d581e42cce5e8.setIcon(icon_a75051fbf94e4a60b666f94d6f41996b);
+            
+    
+            var popup_20a28272e2f34f249a2fd5254ed47316 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_bdc40bb5704d4715a20c6850937a1348 = $(`<div id="html_bdc40bb5704d4715a20c6850937a1348" style="width: 100.0%; height: 100.0%;">Dog Bites & Fist Fights 5.12d</div>`)[0];
+                popup_20a28272e2f34f249a2fd5254ed47316.setContent(html_bdc40bb5704d4715a20c6850937a1348);
+            
+
+            marker_35ad9b2c2d214a81b81d581e42cce5e8.bindPopup(popup_20a28272e2f34f249a2fd5254ed47316)
+            ;
+
+            
+        
+    
+        marker_35ad9b2c2d214a81b81d581e42cce5e8.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_837de837a1134a24ba89f0b70c2f8b67 = L.marker(
+            [37.6539, -83.7176],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_35f03d4f715f43c19cb6895bf1064ee2 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_837de837a1134a24ba89f0b70c2f8b67.setIcon(icon_35f03d4f715f43c19cb6895bf1064ee2);
+            
+    
+            var popup_80b53510ead04a03908a66dbe387c64a = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_1664751c20f84e9fa11828571ad5b724 = $(`<div id="html_1664751c20f84e9fa11828571ad5b724" style="width: 100.0%; height: 100.0%;">27 Years of Climbing 5.8</div>`)[0];
+                popup_80b53510ead04a03908a66dbe387c64a.setContent(html_1664751c20f84e9fa11828571ad5b724);
+            
+
+            marker_837de837a1134a24ba89f0b70c2f8b67.bindPopup(popup_80b53510ead04a03908a66dbe387c64a)
+            ;
+
+            
+        
+    
+        marker_837de837a1134a24ba89f0b70c2f8b67.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5ce909cf739f4f908e2c7c7854fd583b = L.marker(
+            [37.6527, -83.7177],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_611118153e4a47b1841d475f472d20e3 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ce909cf739f4f908e2c7c7854fd583b.setIcon(icon_611118153e4a47b1841d475f472d20e3);
+            
+    
+            var popup_f49b07b4a4874cbc984ad724b910ef85 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_f22cff8c1372488482f59306e4d66364 = $(`<div id="html_f22cff8c1372488482f59306e4d66364" style="width: 100.0%; height: 100.0%;">Starry Night 5.12a</div>`)[0];
+                popup_f49b07b4a4874cbc984ad724b910ef85.setContent(html_f22cff8c1372488482f59306e4d66364);
+            
+
+            marker_5ce909cf739f4f908e2c7c7854fd583b.bindPopup(popup_f49b07b4a4874cbc984ad724b910ef85)
+            ;
+
+            
+        
+    
+        marker_5ce909cf739f4f908e2c7c7854fd583b.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_bff74fc3887d4f8a91d32b801716e853 = L.marker(
+            [37.72048, -83.6628],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_54b588c3ff3546fda3bb576a43e05a78 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bff74fc3887d4f8a91d32b801716e853.setIcon(icon_54b588c3ff3546fda3bb576a43e05a78);
+            
+    
+            var popup_17795b4192ae447c8f125f543820f31a = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_3fc07cf368f54fd7b243406301be0dcb = $(`<div id="html_3fc07cf368f54fd7b243406301be0dcb" style="width: 100.0%; height: 100.0%;">Bare Metal Teen 5.12a</div>`)[0];
+                popup_17795b4192ae447c8f125f543820f31a.setContent(html_3fc07cf368f54fd7b243406301be0dcb);
+            
+
+            marker_bff74fc3887d4f8a91d32b801716e853.bindPopup(popup_17795b4192ae447c8f125f543820f31a)
+            ;
+
+            
+        
+    
+        marker_bff74fc3887d4f8a91d32b801716e853.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_daf622f134a64803beee8c7afd56df67 = L.marker(
+            [37.72045, -83.6627],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_9fb4a876b43143d685a913cc3cf0d6dc = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_daf622f134a64803beee8c7afd56df67.setIcon(icon_9fb4a876b43143d685a913cc3cf0d6dc);
+            
+    
+            var popup_eea499e7ca0740738922dc9838aba587 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_e7459ca1960b475fb6d8e789ec170bcd = $(`<div id="html_e7459ca1960b475fb6d8e789ec170bcd" style="width: 100.0%; height: 100.0%;">Steelworker 5.12c</div>`)[0];
+                popup_eea499e7ca0740738922dc9838aba587.setContent(html_e7459ca1960b475fb6d8e789ec170bcd);
+            
+
+            marker_daf622f134a64803beee8c7afd56df67.bindPopup(popup_eea499e7ca0740738922dc9838aba587)
+            ;
+
+            
+        
+    
+        marker_daf622f134a64803beee8c7afd56df67.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_567466778e314ec3a6852b0d5e734b1a = L.marker(
+            [37.7314, -83.634],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_059850edd8f04f9aa621a27ca0b25f0a = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_567466778e314ec3a6852b0d5e734b1a.setIcon(icon_059850edd8f04f9aa621a27ca0b25f0a);
+            
+    
+            var popup_abb48ac261cb40fa89a113ef23f1cd4a = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_d0c3ef08ce954512aae23d1094cb455a = $(`<div id="html_d0c3ef08ce954512aae23d1094cb455a" style="width: 100.0%; height: 100.0%;">Jesus Wept 5.12d</div>`)[0];
+                popup_abb48ac261cb40fa89a113ef23f1cd4a.setContent(html_d0c3ef08ce954512aae23d1094cb455a);
+            
+
+            marker_567466778e314ec3a6852b0d5e734b1a.bindPopup(popup_abb48ac261cb40fa89a113ef23f1cd4a)
+            ;
+
+            
+        
+    
+        marker_567466778e314ec3a6852b0d5e734b1a.bindTooltip(
+            `<div>`
+            + `Click For Route Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_bbc54936c34e401d8fc9a116d79f96e5 = L.marker(
+            [37.7315, -83.6339],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2e0a2c48cc914fcfa0bdfd7042be68f8);
+        
+    
+
+                var icon_eb3ada86fb674a3391ae6e2223f08fa6 = L.AwesomeMarkers.icon({
+                    icon: 'picture',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bbc54936c34e401d8fc9a116d79f96e5.setIcon(icon_eb3ada86fb674a3391ae6e2223f08fa6);
+            
+    
+            var popup_974d6c7f366e4942885415bfddbb9205 = L.popup({maxWidth: '150'
+            
+            });
+
+            
+                var html_84d3d70ff724418fa0b4bce200c41188 = $(`<div id="html_84d3d70ff724418fa0b4bce200c41188" style="width: 100.0%; height: 100.0%;">Triple Sec 5.12d</div>`)[0];
+                popup_974d6c7f366e4942885415bfddbb9205.setContent(html_84d3d70ff724418fa0b4bce200c41188);
+            
+
+            marker_bbc54936c34e401d8fc9a116d79f96e5.bindPopup(popup_974d6c7f366e4942885415bfddbb9205)
+            ;
+
+            
+        
+    
+        marker_bbc54936c34e401d8fc9a116d79f96e5.bindTooltip(
             `<div>`
             + `Click For Route Info` + `</div>`,
             {"sticky": true}
